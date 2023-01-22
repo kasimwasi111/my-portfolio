@@ -33,11 +33,11 @@ const Home = () => {
           </div>
         </div>
 
-        <div>
+        <div className='shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-blue-300'>
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto w-2/3 md:w-full "
           />
         </div>
       </div>
