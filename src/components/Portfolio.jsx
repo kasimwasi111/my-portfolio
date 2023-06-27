@@ -1,6 +1,5 @@
 import React from "react";
 import movix from "../assets/portfolio/movix.png";
-import qClock from "../assets/portfolio/qClock.png";
 import recipeFinder from "../assets/portfolio/recipeFinder.png";
 import tipCalculator from "../assets/portfolio/tipCalculator.png";
 
@@ -14,18 +13,12 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: qClock,
-      demo: "https://q-clock.netlify.app/",
-      code: "https://github.com/kasimwasi111/Analog-Clock",
-    },
-    {
-      id: 3,
       src: tipCalculator,
       demo: "https://helpful-dolphin-352174.netlify.app/",
       code: "https://github.com/kasimwasi111/https---github.com-kasimwasi111-Bill-Calculator",
     },
     {
-      id: 4,
+      id: 3,
       src: recipeFinder,
       demo: "https://recipe-gen.vercel.app/",
       code: "https://github.com/kasimwasi111/recipe-gen",
