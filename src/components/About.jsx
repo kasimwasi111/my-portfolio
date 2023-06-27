@@ -12,7 +12,7 @@ const About = () => {
             About
           </p>
         </div>
-        <p className="text-xl mt-10">
+        <p className="text-xl mt-20">
           Fresher with vast collection of tech stacks with good communication
           skill. Searching for Front-end role in a decent company.I want to use
           my knowledge and skills to gain practical exposure and understand the
