@@ -1,24 +1,24 @@
-import React from 'react'
+import React from "react";
 import HeroImage from "../assets/heroImage.png";
-import {RxArrowRight} from "react-icons/rx";
+import { RxArrowRight } from "react-icons/rx";
 import { Link } from "react-scroll";
 
 const Home = () => {
-    return (
-      <div
-        name="home"
-        className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
-      >
-        <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-          <div className="flex flex-col justify-center h-full">
-            <h2 className="text-4xl sm:text-7xl font-bold text-white">
-              I'm a Front-end Developer
-            </h2>
-                <p className='text-gray-500 py-4 max-w-md'>Hello, My Name is Mohammad Kasim. 
-                Currently, I am learning Full Stack Development 
-                from Newton School.
-                </p>
-                <div>
+  return (
+    <div
+      name="home"
+      className="w-full bg-gradient-to-b from-black via-black to-gray-800 p-4"
+    >
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+        <div className="flex flex-col justify-center h-full">
+          <h2 className="text-4xl sm:text-7xl font-bold text-white mt-10">
+            I'm a Front-end Developer
+          </h2>
+          <p className="text-gray-500 py-4 max-w-md">
+            Hello, My Name is Mohammad Kasim. Currently, I am learning Full
+            Stack Development from Newton School.
+          </p>
+          <div>
             <Link
               to="portfolio"
               smooth
@@ -33,7 +33,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className='shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-blue-300'>
+        <div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-blue-300">
           <img
             src={HeroImage}
             alt="my profile"
