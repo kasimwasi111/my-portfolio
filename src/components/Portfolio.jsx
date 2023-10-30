@@ -1,7 +1,7 @@
 import React from "react";
 import movix from "../assets/portfolio/movix.png";
 import recipeFinder from "../assets/portfolio/recipeFinder.png";
-import tipCalculator from "../assets/portfolio/tipCalculator.png";
+import ecom from "../assets/portfolio/ecom.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -13,9 +13,9 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: tipCalculator,
-      demo: "https://helpful-dolphin-352174.netlify.app/",
-      code: "https://github.com/kasimwasi111/https---github.com-kasimwasi111-Bill-Calculator",
+      src: ecom,
+      demo: "https://ecomx.vercel.app/",
+      code: "https://github.com/kasimwasi111/ecomx",
     },
     {
       id: 3,
